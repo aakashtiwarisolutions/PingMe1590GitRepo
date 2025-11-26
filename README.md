@@ -1,9 +1,10 @@
 # PingMe1590GitRepo
-One QR code for your entire digital identity – PingMe (Flutter + Node.js + PostgreSQL + AWS).”
+One QR code for your entire digital identity, PingMe (Flutter + Node.js + PostgreSQL + AWS).”
+
 
 **PingMe** is a full-stack app that turns a single QR code into a living digital identity.
 
-Each user gets a personal QR that can go on a phone case, T-shirt, badge, card – even a tattoo if they’re brave enough. The QR never changes, but the profile behind it is fully editable: socials, email, portfolio, promos, and anything else worth sharing.
+Each user gets a personal QR that can go on a phone case, T-shirt, badge, card: even a tattoo if they’re brave enough. The QR never changes, but the profile behind it is fully editable: socials, email, portfolio, promos, and anything else worth sharing.
 
 ---
 
@@ -47,7 +48,7 @@ Perfect for students, creators, event networking, or anyone who’s tired of say
 **Infrastructure**
 - AWS for server and deployment (e.g. EC2 / App Runner / ECS)
 - AWS RDS for PostgreSQL (planned)
-- Environment-based configuration for dev vs prod
+- Environment, based configuration for dev vs prod
 
 ---
 
