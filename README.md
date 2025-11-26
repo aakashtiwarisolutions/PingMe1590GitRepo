@@ -133,7 +133,7 @@ Perfect for students, creators, event networking, or anyone who’s tired of say
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/PingMe1590GitRepo.git
+git clone https://github.com/aakashtiwarisolutions/PingMe1590GitRepo
 cd PingMe1590GitRepo
 ```
 
