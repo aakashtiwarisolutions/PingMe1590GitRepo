@@ -1,6 +1,6 @@
 # **PingMe1590GitRepo**
 One QR code for your entire digital identity, PingMe (Flutter + Node.js + PostgreSQL + AWS).”
-
+---
 
 **PingMe** is a full-stack app that turns a single QR code into a living digital identity.
 
@@ -23,7 +23,7 @@ Scan it and you get exactly what the person wants you to see:
 - Promotions, referral links, or featured projects  
 
 Perfect for students, creators, event networking, or anyone who’s tired of saying  
-“Hold on, let me find my link…”
+“Hold on, let me find my link...”
 
 ---
 
