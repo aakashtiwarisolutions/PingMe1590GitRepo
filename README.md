@@ -16,7 +16,7 @@ PingMe keeps it simple:
 
 > **One QR code. One place where everything lives.**
 
-Scan it and you get exactly what the person wants you to see:
+Scan it and you get exactly what the person wants you to see
 - Social profiles  
 - Contact details  
 - Portfolio / GitHub / LinkedIn  
