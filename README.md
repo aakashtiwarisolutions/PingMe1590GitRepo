@@ -128,7 +128,7 @@ Perfect for students, creators, event networking, or anyone who’s tired of say
 
 ---
 
-## Getting Started
+## Getting Started:
 
 ### 1. Clone the repo
 
