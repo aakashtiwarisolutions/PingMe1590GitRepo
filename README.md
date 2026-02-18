@@ -44,7 +44,7 @@ Benefits of website-first approach:
 
 ### Frontend (Web)
 
-- React / Next.js (planned)
+- React/Next.js (planned)
 - Responsive design
 - QR code display and scanning support
 
