@@ -21,7 +21,7 @@ Scan once and instantly access:
 - Portfolio / GitHub / LinkedIn
 - Promotions or featured projects
 
-Perfect for students, creators, networking events, and professionals.
+Perfect for students, creators, networking events and professionals.
 
 ---
 
