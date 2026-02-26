@@ -1,6 +1,6 @@
 # PingMe1590GitRepo
 
-One QR code for your entire digital identity.
+One QR code for your entire digital identity
 
 PingMe is a full-stack web application that turns a single QR code into a living digital identity. Instead of sharing multiple links, users share one permanent QR code that connects people to everything they want to show.
 
