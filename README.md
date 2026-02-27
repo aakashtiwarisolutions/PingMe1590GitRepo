@@ -1,129 +1,111 @@
-# PingMe1590GitRepo:
+# PingMe1590GitRepo
 
 One QR code for your entire digital identity.
 
-PingMe is a full-stack web application that turns a single QR code into a living digital identity. Instead of sharing multiple links, users share one permanent QR code that connects people to everything they want to show.
+PingMe is a backend-based web application that allows users to share
+everything using a single QR code. Instead of sending multiple links,
+users can share one QR code that connects to all their important
+information.
 
----
+------------------------------------------------------------------------
 
 ## Vision
 
-We all manage too many links: Instagram, Snapchat, GitHub, LinkedIn, portfolios, and personal projects.
+Today we manage too many links --- Instagram, LinkedIn, GitHub,
+portfolio, email, and more.
 
 PingMe keeps it simple:
 
-> One QR code. One place where everything lives.
+One QR code. One place where everything lives.
 
-Scan once and instantly access:
+Scan once and access: - Social profiles - Contact details - Portfolio or
+GitHub - Featured projects
 
-- Social profiles
-- Contact details
-- Portfolio / GitHub / LinkedIn
-- Promotions or featured projects
+This project is designed for students, professionals, creators, and
+networking events.
 
-Perfect for students, creators, networking events and professionals.
+------------------------------------------------------------------------
 
----
+## Current Focus
 
-## Project Direction (Website-First)
+Right now, PingMe is focused on building a strong backend foundation.
 
-As of February 2026, PingMe is being developed as a **web application first**.
+The main goals are: - Building clean REST APIs - Connecting to a
+database - Managing user data - Exporting data to cloud storage -
+Maintaining proper Git branch workflow
 
-The mobile app (Flutter) is still planned but will be built after the web MVP is complete.
+Frontend and full QR features will be expanded later.
 
-Benefits of website-first approach:
-
-- Faster development and testing
-- No app installation required
-- Works immediately when QR is scanned
-- Easier deployment and iteration
-
----
+------------------------------------------------------------------------
 
 ## Tech Stack
 
-### Frontend (Web)
+Backend: - Node.js - Express.js - REST API structure
 
-- React/Next.js (planned)
-- Responsive design
-- QR code display and scanning support
+Database: - MongoDB (local development) - Mongoose
 
-### Backend API
+Cloud Integration: - AWS S3 - AWS SDK v3
 
-- Node.js
-- Express framework
-- REST API architecture
-- JWT authentication
+Development Tools: - Nodemon - Environment variables (.env) - Git (Dev
+branch workflow)
 
-### Database
+------------------------------------------------------------------------
 
-- PostgreSQL
-- Local development database
-- AWS RDS planned for production
+## Core Features (Current MVP)
 
-### Infrastructure
+### User API
 
-- AWS (EC2 / App Runner / ECS)
-- Environment-based configuration
-- Future CI/CD pipeline
+-   Create user profiles
+-   Store user data in MongoDB
+-   Retrieve user data using API
 
----
+### Export to S3
 
-## Core Features (MVP)
+-   Fetch user data from MongoDB
+-   Convert the data into a .txt file
+-   Upload the file to AWS S3
 
-### Personal QR Identity
+This shows the full flow:
 
-- Each user receives a permanent QR code.
-- QR links to a short URL containing a unique profile ID.
-- Profile content can change without updating the QR.
+Database → API → File Creation → Cloud Upload
 
-### Customizable Profile
+------------------------------------------------------------------------
 
-- Add social links (Instagram, GitHub, LinkedIn, etc.)
-- Add email, website, portfolio links
-- Reorder or hide sections
+## How to Run
 
-### Public Profile Page
+1.  Clone the repository
 
-- QR directs to public web profile
-- Works without requiring account login
+git clone https://github.com/aakashtiwarisolutions/PingMe1590GitRepo.git
 
-### Privacy Controls
+2.  Install dependencies
 
-- Toggle visibility for individual links
-- Public vs private fields
+npm install
 
-### Analytics (Planned)
+3.  Create a .env file
 
-- Track QR scan counts
-- Basic usage statistics
+PORT=4000 MONGO_URI=mongodb://127.0.0.1:27017/pingme
+AWS_REGION=your-region AWS_ACCESS_KEY_ID=your-access-key
+AWS_SECRET_ACCESS_KEY=your-secret-key
 
----
+4.  Start the server
 
-## High-Level Architecture
+npm run dev
 
-1. Web Frontend
-   - User signup/login
-   - Profile editing
-   - QR display
+Server runs on: http://localhost:4000
 
-2. Node.js API Server (AWS)
-   - Authentication
-   - Profile management
-   - QR resolution endpoint
+------------------------------------------------------------------------
 
-3. PostgreSQL Database
-   - Users
-   - Links
-   - Scan events
+## What This Project Demonstrates
 
-4. Public Profile URL
+-   Backend development with Node.js
+-   MongoDB database integration
+-   REST API design
+-   File generation in Node.js
+-   Uploading files to AWS S3
+-   Git branch workflow management
 
-Example:
+------------------------------------------------------------------------
 
-https://your-domain.com/p/:qrId
+## Author
 
----
-
-## Repository Structure
-
+Aakash Tiwari GitHub: https://github.com/aakashtiwarisolutions
