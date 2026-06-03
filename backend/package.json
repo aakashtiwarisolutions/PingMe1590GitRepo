@@ -1,0 +1,25 @@
+{
+  "name": "pingme-backend",
+  "version": "1.0.0",
+  "description": "PingMe — One QR code for your entire digital identity",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "author": "Aakash Tiwari",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.985.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "mongoose": "^8.23.0",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
